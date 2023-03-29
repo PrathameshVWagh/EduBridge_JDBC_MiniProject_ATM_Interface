@@ -247,18 +247,6 @@ public class BankDaoImpl {
         con.close();
 		
 	}
-	/*
-	public void deleteIPL(IPL i) throws ClassNotFoundException, SQLException {
-		Class.forName("com.mysql.jdbc.Driver");
-		Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/8657capgemini","root","draw&tabla.1st");
-       
-        PreparedStatement statement=con.prepareStatement("delete from ipl where teamid=?");
-        
-
-        statement.setInt(1, i.getTeamid());
-        statement.executeUpdate();
-        con.close();
-		
-	}*/
+	
 	
 }
